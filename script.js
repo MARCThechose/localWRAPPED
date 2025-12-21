@@ -2,7 +2,18 @@ document.addEventListener('DOMContentLoaded', () => {
     const slides = document.querySelectorAll('.slide');
     const nextBtn = document.getElementById('next-btn');
     const prevBtn = document.getElementById('prev-btn');
+    const audio = document.getElementById('jukebox-audio');
+    const playPauseBtn = document.getElementById('play-pause-btn');
     let currentSlide = 0;
+
+    const songs = [
+        './dance-of-the-sugar-plum-fairies.mp3',
+        './jingle-bells.mp3',
+        './we-wish-you-a-merry-christmas.mp3',
+        './deck-the-halls.mp3',
+        './silent-night.mp3',
+        './o-holy-night.mp3'
+    ];
 
     function showSlide(index) {
         // Hide all slides
@@ -25,7 +36,21 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             nextBtn.textContent = 'Next';
         }
+
+        // Update audio source
+        if (songs[index]) {
+            audio.src = songs[index];
+            audio.play();
+        }
     }
+
+    playPauseBtn.addEventListener('click', () => {
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    });
 
     nextBtn.addEventListener('click', () => {
         if (currentSlide < slides.length - 1) {

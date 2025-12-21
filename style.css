@@ -493,3 +493,28 @@ button:hover {
     left: 105px;
 
 }
+
+.jukebox {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+#play-pause-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #1DB954;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #1DB954;
+    transition: all 0.3s;
+}
+
+#play-pause-btn:hover {
+    background-color: #1DB954;
+    color: #121212;
+}

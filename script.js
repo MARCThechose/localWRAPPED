@@ -2,65 +2,37 @@ document.addEventListener('DOMContentLoaded', () => {
     const slides = document.querySelectorAll('.slide');
     const nextBtn = document.getElementById('next-btn');
     const prevBtn = document.getElementById('prev-btn');
-    const audio = document.getElementById('jukebox-audio');
-    const playPauseBtn = document.getElementById('play-pause-btn');
+    const music = document.getElementById('background-music');
     let currentSlide = 0;
-
-    const songs = [
-        './dance-of-the-sugar-plum-fairies.mp3',
-        './jingle-bells.mp3',
-        './we-wish-you-a-merry-christmas.mp3',
-        './deck-the-halls.mp3',
-        './silent-night.mp3',
-        './o-holy-night.mp3'
-    ];
+    let musicStarted = false;
 
     function showSlide(index) {
-        // Hide all slides
-        slides.forEach(slide => {
-            slide.classList.remove('active');
-        });
-
-        // Show the correct slide
+        slides.forEach(slide => slide.classList.remove('active'));
         slides[index].classList.add('active');
 
-        // Update button visibility
-        if (currentSlide === 0) {
-            prevBtn.style.display = 'none';
-        } else {
-            prevBtn.style.display = 'inline-block';
-        }
-
-        if (currentSlide === slides.length - 1) {
-            nextBtn.textContent = 'Finish';
-        } else {
-            nextBtn.textContent = 'Next';
-        }
-
-        // Update audio source
-        if (songs[index]) {
-            audio.src = songs[index];
-            audio.play();
-        }
+        prevBtn.style.display = index === 0 ? 'none' : 'inline-block';
+        nextBtn.textContent = index === slides.length - 1 ? 'Finish' : 'Next';
     }
-
-    playPauseBtn.addEventListener('click', () => {
-        if (audio.paused) {
-            audio.play();
-        } else {
-            audio.pause();
-        }
-    });
 
     nextBtn.addEventListener('click', () => {
         if (currentSlide < slides.length - 1) {
             currentSlide++;
             showSlide(currentSlide);
+
+            // Play music for the first time when we move to the 2nd slide (index 1)
+            if (currentSlide === 1 && !musicStarted) {
+                music.play().catch(e => console.error("Audio playback failed:", e));
+                musicStarted = true;
+            }
         } else {
-            // Optional: Restart or go to a final message
             alert('Merry Christmas!');
             currentSlide = 0;
             showSlide(currentSlide);
+            if (musicStarted) {
+                music.pause();
+                music.currentTime = 0;
+            }
+            musicStarted = false;
         }
     });
 
@@ -71,6 +43,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Initialize the first slide
     showSlide(0);
 });

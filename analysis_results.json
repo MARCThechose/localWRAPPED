@@ -1,0 +1,36 @@
+{
+  "analysis_results": [
+    {
+      "name": "Lance Calasag",
+      "message_percentage": 6.4,
+      "word_percentage": 5.04,
+      "messageCount": 465,
+      "wordCount": 1920,
+      "avgWordsPerMessage": 4.13
+    },
+    {
+      "name": "Marc Joel",
+      "message_percentage": 42.61,
+      "word_percentage": 43.68,
+      "messageCount": 3098,
+      "wordCount": 16638,
+      "avgWordsPerMessage": 5.37
+    },
+    {
+      "name": "Julian Shaun M. Viloria",
+      "message_percentage": 30.33,
+      "word_percentage": 32.33,
+      "messageCount": 2205,
+      "wordCount": 12315,
+      "avgWordsPerMessage": 5.59
+    },
+    {
+      "name": "Pocholo James Abon",
+      "message_percentage": 20.66,
+      "word_percentage": 18.94,
+      "messageCount": 1502,
+      "wordCount": 7214,
+      "avgWordsPerMessage": 4.8
+    }
+  ]
+}

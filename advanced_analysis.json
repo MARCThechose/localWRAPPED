@@ -1,0 +1,727 @@
+{
+    "participants": [
+        "Julian Shaun M. Viloria",
+        "Lance Calasag",
+        "Marc Joel",
+        "Pocholo James Abon"
+    ],
+    "analysis_by_participant": {
+        "Julian Shaun M. Viloria": {
+            "most_common_words": [
+                [
+                    "hahah",
+                    172
+                ],
+                [
+                    "yung",
+                    110
+                ],
+                [
+                    "na",
+                    105
+                ],
+                [
+                    "aight",
+                    97
+                ],
+                [
+                    "sa",
+                    93
+                ],
+                [
+                    "ye",
+                    87
+                ],
+                [
+                    "ko",
+                    74
+                ],
+                [
+                    "ako",
+                    73
+                ],
+                [
+                    "ng",
+                    55
+                ],
+                [
+                    "cge",
+                    47
+                ],
+                [
+                    "lang",
+                    42
+                ],
+                [
+                    "ic",
+                    42
+                ],
+                [
+                    "like",
+                    38
+                ],
+                [
+                    "pala",
+                    38
+                ],
+                [
+                    "time",
+                    38
+                ],
+                [
+                    "cholo",
+                    37
+                ],
+                [
+                    "bro",
+                    37
+                ],
+                [
+                    "pa",
+                    37
+                ],
+                [
+                    "tot",
+                    36
+                ],
+                [
+                    "may",
+                    35
+                ]
+            ],
+            "custom_word_counts": {
+                "skibidi": 0,
+                "rizz": 2,
+                "gyatt": 0,
+                "fanum tax": 0
+            },
+            "reading_level": {
+                "grade_level": 4.4,
+                "dale_chall": 12.49,
+                "interpretation": "5th Grader",
+                "age_estimate": 9
+            },
+            "sentiment": {
+                "positive_percent": 18.54,
+                "neutral_percent": 67.68,
+                "negative_percent": 13.78,
+                "sentiment_examples": {
+                    "most_positive": "Everyone, excellent job! Despite the obstacles we encountered, we successfully completed our film and found a way to overcome the challenges. Let\u2019s clap our selves because we deserve it!",
+                    "most_negative": "Bonjour, c\u2019est le description mon video: \n\nA door closing by itself represents people not giving up their seats. While I am crawling to enter my room symbolizes the struggles of people with disabilities (PWD). \nFurthermore, My attempt to reach the door knob represents the difficulties PWD face when trying to enter jeeps. \n\nThe message is that PWD, even-those who have unseen struggles, are often not given seats by people and may even be subjected to rude comments when sitting in PWD-designated seats."
+                }
+            },
+            "emoji_usage": [
+                [
+                    "\ud83d\ude2d",
+                    103
+                ],
+                [
+                    "\ud83d\ude06",
+                    11
+                ],
+                [
+                    "\ud83e\udd72",
+                    6
+                ],
+                [
+                    "\ud83d\udc80",
+                    4
+                ],
+                [
+                    "\ud83d\ude43",
+                    4
+                ]
+            ],
+            "excuse_factor": {
+                "sorry": 5,
+                "late": 2,
+                "cant": 2,
+                "wont": 2,
+                "busy": 2,
+                "forgot": 13
+            },
+            "pos_counts": {
+                "adjectives": 1185,
+                "verbs": 1863,
+                "nouns": 5519
+            },
+            "self_pronoun_counts": {
+                "i": 328,
+                "me": 38,
+                "my": 98,
+                "mine": 5,
+                "myself": 3
+            }
+        },
+        "Lance Calasag": {
+            "most_common_words": [
+                [
+                    "c",
+                    36
+                ],
+                [
+                    "go",
+                    19
+                ],
+                [
+                    "diay",
+                    12
+                ],
+                [
+                    "ku",
+                    11
+                ],
+                [
+                    "idk",
+                    9
+                ],
+                [
+                    "na",
+                    9
+                ],
+                [
+                    "like",
+                    9
+                ],
+                [
+                    "guys",
+                    9
+                ],
+                [
+                    "sir",
+                    8
+                ],
+                [
+                    "think",
+                    8
+                ],
+                [
+                    "sa",
+                    8
+                ],
+                [
+                    "phoenix",
+                    8
+                ],
+                [
+                    "reigns",
+                    8
+                ],
+                [
+                    "ccis",
+                    8
+                ],
+                [
+                    "ccisiklab",
+                    8
+                ],
+                [
+                    "man",
+                    7
+                ],
+                [
+                    "bro",
+                    7
+                ],
+                [
+                    "im",
+                    7
+                ],
+                [
+                    "nga",
+                    7
+                ],
+                [
+                    "ada",
+                    7
+                ]
+            ],
+            "custom_word_counts": {
+                "skibidi": 0,
+                "rizz": 0,
+                "gyatt": 0,
+                "fanum tax": 0
+            },
+            "reading_level": {
+                "grade_level": 4.6,
+                "dale_chall": 13.17,
+                "interpretation": "5th Grader",
+                "age_estimate": 10
+            },
+            "sentiment": {
+                "positive_percent": 18.57,
+                "neutral_percent": 63.19,
+                "negative_percent": 18.24,
+                "sentiment_examples": {
+                    "most_positive": "C-C-I-S\nC-C-I-S \nC-C-I-S GO! GO! GO!\nBurning like flame, like a comet in the sky \nC-C-I-S\nC-C-I-S \nC-C-I-S GO! GO! GO!\n\nPhoenix reigns, CCIS, Phoenix reigns\nPhoenix reigns, CCIS, Phoenix reigns\nPhoenix reigns, CCIS, Phoenix reigns\nPhoenix reigns, CCIS, Phoenix reigns\n\nC-C-I-S \nC-C-I-S \nC-C-I-S GO! GO! GO! \nBlazing like stars, like a rocket in the night \nC-C-I-S \nC-C-I-S \nC-C-I-S GO! GO! GO!\n\nCCISiklab, CCIS, CCISiklab\nCCISiklab, CCIS, CCISiklab\nCCISiklab, CCIS, CCISiklab\nCCISiklab, CCIS, CCISiklab\n\nC-C-I-S\nC-C-I-S \nC-C-I-S GO! GO! GO!\nDebugging like fire, like a lightning we strike\nC-C-I-S\nC-C-I-S \nC-C-I-S GO! GO! GO!",
+                    "most_negative": "nadetect da kan jay agsesend bomb threat. tagacoe kano"
+                }
+            },
+            "emoji_usage": [
+                [
+                    "\ud83d\uddff",
+                    19
+                ],
+                [
+                    "\ud83e\udee0",
+                    17
+                ],
+                [
+                    "\ud83d\udd25",
+                    16
+                ],
+                [
+                    "\ud83e\udd40",
+                    13
+                ],
+                [
+                    "\ud83d\ude4f",
+                    11
+                ]
+            ],
+            "excuse_factor": {
+                "sorry": 3,
+                "late": 1,
+                "cant": 0,
+                "wont": 0,
+                "busy": 0,
+                "forgot": 0
+            },
+            "pos_counts": {
+                "adjectives": 198,
+                "verbs": 246,
+                "nouns": 913
+            },
+            "self_pronoun_counts": {
+                "i": 50,
+                "me": 12,
+                "my": 10,
+                "mine": 1,
+                "myself": 0
+            }
+        },
+        "Marc Joel": {
+            "most_common_words": [
+                [
+                    "na",
+                    168
+                ],
+                [
+                    "sa",
+                    124
+                ],
+                [
+                    "yung",
+                    107
+                ],
+                [
+                    "guys",
+                    90
+                ],
+                [
+                    "ko",
+                    72
+                ],
+                [
+                    "jay",
+                    67
+                ],
+                [
+                    "im",
+                    66
+                ],
+                [
+                    "ay",
+                    65
+                ],
+                [
+                    "nalang",
+                    58
+                ],
+                [
+                    "ng",
+                    58
+                ],
+                [
+                    "wait",
+                    56
+                ],
+                [
+                    "kasi",
+                    54
+                ],
+                [
+                    "pa",
+                    54
+                ],
+                [
+                    "like",
+                    52
+                ],
+                [
+                    "though",
+                    51
+                ],
+                [
+                    "ka",
+                    50
+                ],
+                [
+                    "lang",
+                    49
+                ],
+                [
+                    "mo",
+                    48
+                ],
+                [
+                    "wanna",
+                    48
+                ],
+                [
+                    "need",
+                    48
+                ]
+            ],
+            "custom_word_counts": {
+                "skibidi": 0,
+                "rizz": 0,
+                "gyatt": 0,
+                "fanum tax": 0
+            },
+            "reading_level": {
+                "grade_level": 4.34,
+                "dale_chall": 12.46,
+                "interpretation": "5th Grader",
+                "age_estimate": 9
+            },
+            "sentiment": {
+                "positive_percent": 19.1,
+                "neutral_percent": 69.55,
+                "negative_percent": 11.35,
+                "sentiment_examples": {
+                    "most_positive": "\ud83d\udce3 Today we will be ALL tasked to create our own scene for the film (each)\n*\n>The scene can be as simple as a jeep passing by(just an example, please dont copy me), Think outside the box.\n\n* \n> we will be filming separately, use your own phone camera to film. or you can join people who are also free tomorrow to think of ideas or film together if it is convenient.\n\n*\n>note that we are conditioned to reflect our artist/painting still, you are free to choose a theme around : stuggles, painting,  and journey; or what you feel like would fit in our submitted poster\n\n*\n>another reminder that this is an experimental film, GO WILD WITH IT. we are expressing, not telling a story. no need for structure, consistency etc.\n\nplease do your part as today will be the last day of filming, so we can proceed to editing. Kindly react \"\ud83d\udeb6\u200d\u2642\ufe0f\" if you've read this message na.\n\nthats all, thank you in advance!\notherwise. please do let me know if may concern kayo. (edited)",
+                    "most_negative": "what the hell did i did wrong, why does he hate me?"
+                }
+            },
+            "emoji_usage": [
+                [
+                    "\ud83d\udc94",
+                    15
+                ],
+                [
+                    "\ud83d\udc49",
+                    10
+                ],
+                [
+                    "\ud83d\udc48",
+                    10
+                ],
+                [
+                    "\ud83d\ude2d",
+                    10
+                ],
+                [
+                    "\ud83d\ude14",
+                    7
+                ]
+            ],
+            "excuse_factor": {
+                "sorry": 18,
+                "late": 10,
+                "cant": 11,
+                "wont": 2,
+                "busy": 9,
+                "forgot": 11
+            },
+            "pos_counts": {
+                "adjectives": 1839,
+                "verbs": 2695,
+                "nouns": 7757
+            },
+            "self_pronoun_counts": {
+                "i": 434,
+                "me": 76,
+                "my": 82,
+                "mine": 11,
+                "myself": 2
+            }
+        },
+        "Pocholo James Abon": {
+            "most_common_words": [
+                [
+                    "haha",
+                    271
+                ],
+                [
+                    "na",
+                    147
+                ],
+                [
+                    "sa",
+                    116
+                ],
+                [
+                    "hahaha",
+                    108
+                ],
+                [
+                    "ako",
+                    103
+                ],
+                [
+                    "hehe",
+                    83
+                ],
+                [
+                    "siges",
+                    80
+                ],
+                [
+                    "yung",
+                    77
+                ],
+                [
+                    "ko",
+                    75
+                ],
+                [
+                    "lang",
+                    57
+                ],
+                [
+                    "ng",
+                    53
+                ],
+                [
+                    "everyone",
+                    52
+                ],
+                [
+                    "pa",
+                    51
+                ],
+                [
+                    "tayo",
+                    49
+                ],
+                [
+                    "natin",
+                    48
+                ],
+                [
+                    "yoo",
+                    43
+                ],
+                [
+                    "nalang",
+                    39
+                ],
+                [
+                    "may",
+                    38
+                ],
+                [
+                    "mo",
+                    37
+                ],
+                [
+                    "oks",
+                    33
+                ]
+            ],
+            "custom_word_counts": {
+                "skibidi": 0,
+                "rizz": 1,
+                "gyatt": 0,
+                "fanum tax": 0
+            },
+            "reading_level": {
+                "grade_level": 5.71,
+                "dale_chall": 15.7,
+                "interpretation": "8th Grader",
+                "age_estimate": 11
+            },
+            "sentiment": {
+                "positive_percent": 35.49,
+                "neutral_percent": 57.13,
+                "negative_percent": 7.38,
+                "sentiment_examples": {
+                    "most_positive": "Gentlemen I have great news.... ITS ALIVE!!! haha",
+                    "most_negative": "But Etoy Jay Topics/Concepts nga napag saritaan:\n\n**Main Topics**\n1. AI Dependency on Students\n2. Internet (MMSU)\n3. Politics/Social Cancer\n4. Minecraft Mixed film (with ofcourse story)\n\n**Other Topics**\n1. Insubordinate/unruly drivers\n2. Poverty: Lives of Homeless people\n3. Flood Control/Corruption\n4. Roblox Mixed film\n\nFocus tayo sa main topics na napag usapan, and may follow-up meeting rin bukas for clarification/context sa mga wala kanina sa meeting at Final decison natin sa topic natin."
+                }
+            },
+            "emoji_usage": [
+                [
+                    "\ud83e\udd2f",
+                    3
+                ],
+                [
+                    "\ud83e\udd43",
+                    3
+                ],
+                [
+                    "\ud83d\ude01",
+                    2
+                ],
+                [
+                    "\ud83d\udc4d",
+                    2
+                ],
+                [
+                    "\u2705",
+                    2
+                ]
+            ],
+            "excuse_factor": {
+                "sorry": 8,
+                "late": 8,
+                "cant": 0,
+                "wont": 0,
+                "busy": 0,
+                "forgot": 0
+            },
+            "pos_counts": {
+                "adjectives": 843,
+                "verbs": 654,
+                "nouns": 4014
+            },
+            "self_pronoun_counts": {
+                "i": 11,
+                "me": 1,
+                "my": 4,
+                "mine": 1,
+                "myself": 0
+            }
+        }
+    },
+    "overall_analysis": {
+        "top_emojis": [
+            [
+                "\ud83d\ude2d",
+                116
+            ],
+            [
+                "\ud83d\uddff",
+                20
+            ],
+            [
+                "\ud83e\udee0",
+                20
+            ],
+            [
+                "\ud83d\udd25",
+                16
+            ],
+            [
+                "\ud83d\udc94",
+                15
+            ]
+        ],
+        "chat_initiator": [
+            [
+                "Marc Joel",
+                63
+            ],
+            [
+                "Pocholo James Abon",
+                54
+            ],
+            [
+                "Julian Shaun M. Viloria",
+                40
+            ],
+            [
+                "Lance Calasag",
+                12
+            ]
+        ],
+        "night_owl_score": [
+            [
+                "Marc Joel",
+                316
+            ],
+            [
+                "Julian Shaun M. Viloria",
+                172
+            ],
+            [
+                "Pocholo James Abon",
+                106
+            ],
+            [
+                "Lance Calasag",
+                39
+            ]
+        ],
+        "longest_monologue": {
+            "author": "Marc Joel",
+            "message_count": 27,
+            "monologue_content": [
+                "Forgive me for being pushy guys but we really need to get done with this",
+                "Update sa scenes nyuu @everyone  especially sa mga walang gagawin ngayun",
+                "Ask kay lang nu ada question yu or concern",
+                "Di naman need na jeep i film bowsing",
+                "You just need to convey the theme(s)",
+                "Thank you for letting me know, tun bigat kayam? Ta uray ma append tu latta jay kukwamun",
+                "Kaya mo yan bowsing \ud83e\udd79",
+                "But if ever saan ka makafilm you have to make up for it by editing",
+                "Otherwise,. Awan credit mo kadidjay.",
+                "To keep everything fair",
+                "Hmmmmm what about filming yourself walking with different attires in your pov it tackles yung journey sa theme natin",
+                "Dont worry about it being to plane, thats just a scene naman, not the whole entire film",
+                "Like about this parang",
+                "But walking of course",
+                "And try to add a twist that goes with the themes",
+                "Yes, it can be as simple as that, but try to add a twist still",
+                "H o w on whaf",
+                "H o w on what (edited)",
+                "Ionno to be honest, maybe try walking a bit differently for each attire? Like sa attire ni lolo subrang bagal lakad nya\n\nSa lakad ni bading subrang bilis lakad",
+                "Parang ganorn",
+                "Can do @Shawn :3?",
+                "How about kaw @Ckhiel any ideas yet?",
+                "Yeahh, that could work, it goes with jay struggle sa themes natin",
+                "Go!!!! The better",
+                "Mayatmayat\ud83d\ude42\u200d\u2195\ufe0f",
+                "U @Lance Calasag ? Hehehe",
+                "Any ideas yet?"
+            ]
+        },
+        "question_askers": [
+            [
+                "Marc Joel",
+                311
+            ],
+            [
+                "Julian Shaun M. Viloria",
+                227
+            ],
+            [
+                "Pocholo James Abon",
+                183
+            ],
+            [
+                "Lance Calasag",
+                56
+            ]
+        ],
+        "special_mentions": [
+            [
+                "Pocholo James Abon",
+                57
+            ],
+            [
+                "Marc Joel",
+                45
+            ],
+            [
+                "Julian Shaun M. Viloria",
+                35
+            ],
+            [
+                "Lance Calasag",
+                31
+            ]
+        ]
+    }
+}

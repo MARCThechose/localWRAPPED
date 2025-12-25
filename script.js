@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let musicStarted = false;
     let analysisData = {};
     let advancedAnalysisData = {};
-    let validWordAnalysisData = {}; // New variable for valid word analysis
+    let validWordAnalysisData = {};
 
     // Function to fetch data
     async function fetchData() {
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const [analysisRes, advancedAnalysisRes, validWordAnalysisRes] = await Promise.all([
                 fetch('analysis_results.json'),
                 fetch('advanced_analysis.json'),
-                fetch('valid_word_analysis_by_pos.json') // New fetch call
+                fetch('valid_word_analysis_by_pos.json')
             ]);
             analysisData = await analysisRes.json();
             advancedAnalysisData = await advancedAnalysisRes.json();
@@ -131,9 +131,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const longestMonologueAuthor = document.getElementById('longest-monologue-author');
         const longestMonologueCount = document.getElementById('longest-monologue-count');
-        // Note: The previous logic was for a single longest monologue.
-        // Now `longest_monologues_per_participant` is a dictionary.
-        // We'll display the overall longest from this new structure.
+    
+       
         if (longestMonologueAuthor && longestMonologueCount && advancedAnalysisData.overall_analysis && advancedAnalysisData.overall_analysis.longest_monologues_per_participant) {
             const allMonologues = Object.values(advancedAnalysisData.overall_analysis.longest_monologues_per_participant);
             if (allMonologues.length > 0) {
